@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}
+Welcome -- Drew's Boredom
+{% endblock %}
+
+{% block content %}
+    <article>
+        <header>
+            <h1>We're on a road to nowhere</h1>
+            <p>This is what happens when you're bored and want to learn web development...</p>
+            <img src="../static/img/giphy.gif">
+        </header>
+        <section>
+            <h2>Come on inside!</h2>
+            <p>{{ user.firstname }} {{ user.lastname }}</p>
+        </section>
+    </article>
+{% endblock %}
